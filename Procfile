@@ -1,1 +1,1 @@
-web: gunicorn curriculo.wsgi --log-file -
+web: gunicorn devpro.wsgi --log-file -
