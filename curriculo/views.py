@@ -1,6 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse(request, 'EM MANUTENÇÃO...')
+    return render(request, 'curriculo/index.html', locals())
